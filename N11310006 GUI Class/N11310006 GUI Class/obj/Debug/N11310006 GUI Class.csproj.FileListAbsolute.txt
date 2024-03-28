@@ -9,3 +9,4 @@ C:\Users\MEGAS\Desktop\GUI-Class\N11310006 GUI Class\N11310006 GUI Class\obj\Deb
 C:\Users\MEGAS\Desktop\GUI-Class\N11310006 GUI Class\N11310006 GUI Class\obj\Debug\N11310006 GUI Class.exe
 C:\Users\MEGAS\Desktop\GUI-Class\N11310006 GUI Class\N11310006 GUI Class\obj\Debug\N11310006 GUI Class.pdb
 C:\Users\MEGAS\Desktop\GUI-Class\N11310006 GUI Class\N11310006 GUI Class\obj\Debug\N11310006_GUI_Class.FormButtun.resources
+C:\Users\MEGAS\Desktop\GUI-Class\N11310006 GUI Class\N11310006 GUI Class\obj\Debug\N11310006_GUI_Class.FormTextBox.resources

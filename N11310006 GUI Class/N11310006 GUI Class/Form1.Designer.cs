@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.btnButton = new System.Windows.Forms.Button();
+            this.btnTextBox = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnButton
@@ -41,11 +42,22 @@
             this.btnButton.UseVisualStyleBackColor = true;
             this.btnButton.Click += new System.EventHandler(this.button1_Click);
             // 
+            // btnTextBox
+            // 
+            this.btnTextBox.Location = new System.Drawing.Point(451, 103);
+            this.btnTextBox.Name = "btnTextBox";
+            this.btnTextBox.Size = new System.Drawing.Size(140, 81);
+            this.btnTextBox.TabIndex = 1;
+            this.btnTextBox.Text = "輸入框";
+            this.btnTextBox.UseVisualStyleBackColor = true;
+            this.btnTextBox.Click += new System.EventHandler(this.btnTextBox_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnTextBox);
             this.Controls.Add(this.btnButton);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -56,6 +68,7 @@
         #endregion
 
         private System.Windows.Forms.Button btnButton;
+        private System.Windows.Forms.Button btnTextBox;
     }
 }
 

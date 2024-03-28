@@ -25,5 +25,24 @@ namespace N11310006_GUI_Class
             else if (button1.Text == "我已經被按過了")
                 button1.Text = "請按我一下";
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            string tmp = label2.Text;
+            int sum = Int32.Parse(tmp)+1;
+            label2.Text = sum.ToString();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void capoo2_Click(object sender, EventArgs e)
+        {
+            string tmp = label2.Text;
+            int sum = Int32.Parse(tmp)-1;
+            label2.Text = sum.ToString();
+        }
     }
 }
