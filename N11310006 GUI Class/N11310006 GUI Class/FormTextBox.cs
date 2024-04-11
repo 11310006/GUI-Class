@@ -37,5 +37,14 @@ namespace N11310006_GUI_Class
         {
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            int a=Int32.Parse(textBox1.Text);
+            int b=Int32.Parse(textBox2.Text);
+            int sum = a + b;
+            label4.Text = sum.ToString();
+
+        }
     }
 }
