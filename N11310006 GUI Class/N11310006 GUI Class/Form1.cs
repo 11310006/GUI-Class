@@ -28,5 +28,11 @@ namespace N11310006_GUI_Class
             Form form = new FormTextBox();
             form.Show();
         }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            Form form = new 期中考_攝氏轉華氏();
+            form.Show();
+        }
     }
 }
