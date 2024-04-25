@@ -19,6 +19,28 @@ namespace N11310006_GUI_Class
 
         private void button1_Click(object sender, EventArgs e)
         {
+            try
+            {
+                /*double input = Double.Parse(textBoxl.Text);
+                double sum = input + 100;
+                buttonl.Text = sum.ToString();*/
+                throw new IndexOutOfRangeException();
+            }
+            catch (System.FormatException)
+            {
+
+            }
+            catch (Exception)
+            {
+
+            }
+            finally
+            {
+
+            }
+
+
+
 
         }
     }
