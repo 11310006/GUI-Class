@@ -12,3 +12,4 @@ C:\Users\MEGAS\Desktop\GUI-Class\N11310006 GUI Class\N11310006 GUI Class\obj\Deb
 C:\Users\MEGAS\Desktop\GUI-Class\N11310006 GUI Class\N11310006 GUI Class\obj\Debug\N11310006_GUI_Class.FormTextBox.resources
 C:\Users\MEGAS\Desktop\GUI-Class\N11310006 GUI Class\N11310006 GUI Class\obj\Debug\N11310006_GUI_Class.期中考_攝氏轉華氏.resources
 C:\Users\MEGAS\Desktop\GUI-Class\N11310006 GUI Class\N11310006 GUI Class\obj\Debug\N11310006_GUI_Class.Form2.resources
+C:\Users\MEGAS\Desktop\GUI-Class\N11310006 GUI Class\N11310006 GUI Class\obj\Debug\N11310006_GUI_Class.Formt3timer.resources

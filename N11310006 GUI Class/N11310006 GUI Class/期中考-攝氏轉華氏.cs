@@ -30,5 +30,10 @@ namespace N11310006_GUI_Class
             double sum = a * 9/5+32;
             label3.Text = sum.ToString();
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
