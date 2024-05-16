@@ -51,5 +51,11 @@ namespace N11310006_GUI_Class
         {
             
         }
+
+        private void button4_Click_1(object sender, EventArgs e)
+        {
+            Form form = new Form3pass();
+            form.Show(); 
+        }
     }
 }

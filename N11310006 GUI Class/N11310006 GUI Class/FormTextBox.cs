@@ -44,7 +44,7 @@ namespace N11310006_GUI_Class
             int b=Int32.Parse(textBox2.Text);
             int sum = a + b;
             label4.Text = sum.ToString();
-A
+
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)

@@ -30,5 +30,24 @@ namespace N11310006_GUI_Class
             label1.Text = String.Format("{0}秒", this.second);
             this.second++;
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            timer1.Enabled = true;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            timer1.Enabled = false;
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            timer1.Enabled = false;
+           
+            this.second = 0;
+            label1.Text = String.Format("{0}秒", this.second);
+
+        }
     }
 }
