@@ -57,5 +57,11 @@ namespace N11310006_GUI_Class
             Form form = new Form3pass();
             form.Show(); 
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Form form = new FormCheckBox();
+            form.Show();
+        }
     }
 }

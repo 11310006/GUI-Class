@@ -26,18 +26,22 @@ namespace N11310006_GUI_Class
                 int input = Int32.Parse(textBox1.Text);
                 if (input == this.answer)
                 {
-                    MessageBox.Show("恭喜答對!");1
+                    MessageBox.Show("恭喜答對!");
 
                 }
                 else if (input< this.answer)
-                {ring
+                {
                     this.min=input;
                 }
-                else if (input< this.answer)
+                else if (input> this.answer)
                 {
                     this.max=input;
                 }
-                label.Text =st
+                label1.Text =string.Format("提示:請輸入{0}~{1}正整數", min, max);
+            }
+            catch(Exception el)
+            {
+                MessageBox.Show("輸入錯誤,請輸入數字");
             }
         }
 
@@ -46,7 +50,7 @@ namespace N11310006_GUI_Class
             Random r = new Random();
             this.answer = r.Next(100);
             MessageBox.Show(answer.ToString());
-            label1.Text =string.Format("提示:請輸入(0)~(1)正整數", min, max);
+            label1.Text =string.Format("提示:請輸入{0}~{1}正整數", min, max);
         }
     }
 }
