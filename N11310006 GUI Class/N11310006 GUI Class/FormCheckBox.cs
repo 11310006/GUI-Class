@@ -32,6 +32,8 @@ namespace N11310006_GUI_Class
 
         private void button1_Click_1(object sender, EventArgs e)
         {
+            String main="", drinking="";
+
             foreach(Control c in panel1.Controls)
             {
                 if(c is CheckBox)
@@ -39,7 +41,8 @@ namespace N11310006_GUI_Class
                     CheckBox chk= (CheckBox)c;
                     if(chk.Checked)
                     {
-                        MessageBox.Show(chk.Text);
+                        main +=chk.Text+",";// main = main + chk.Text
+                        //MessageBox.Show(chk.Text);
                     }
                 }
             }
@@ -52,10 +55,18 @@ namespace N11310006_GUI_Class
                     CheckBox chk = (CheckBox)c;
                     if (chk.Checked)
                     {
-                        MessageBox.Show(chk.Text);
+                        drinking +=chk.Text+",";// drinking = drinking + chk.Text
+                        //MessageBox.Show(chk.Text);
                     }
                 }
             }
+            main=main.Remove(main.Length-1, 1);
+            drinking=drinking.Remove(drinking.Length-1, 1);
+            MessageBox.Show("主餐:"+main+"\n飲料:"+drinking);
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
 
         }
     }
